@@ -3,8 +3,8 @@ import HeroSection from "@/components/HeroSection";
 import CyberTipsAccordion from "@/components/CyberTipsAccordion";
 import TipsCards from "@/components/TipsCards";
 import QuickTips from "@/components/QuickTips";
+import HelpNumbers from "@/components/HelpNumbers";
 import Footer from "@/components/Footer";
-
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
@@ -19,6 +19,9 @@ const Index = () => {
         </section>
         <section id="tips">
           <QuickTips />
+        </section>
+        <section id="ayuda">
+          <HelpNumbers />
         </section>
       </main>
       <Footer />

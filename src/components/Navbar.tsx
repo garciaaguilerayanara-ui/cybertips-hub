@@ -17,6 +17,7 @@ const Navbar = () => {
     { href: "#consejos", label: "Consejos" },
     { href: "#amenazas", label: "Amenazas" },
     { href: "#tips", label: "Tips Rápidos" },
+    { href: "#ayuda", label: "Ayuda" },
   ];
 
   return (
